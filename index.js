@@ -20,16 +20,15 @@ function getValue(name){
     //Indentation is important here
     let fileText = `---
 Date: ${new Date().toUTCString()}
-Title: "${new Date().toUTCString()}${name}"
-linkTitle: "${new Date().toUTCString()}${name}"
 ---
-#### Date: ${new Date().toUTCString()}
-#### Name: "${name}"
-#### Funded Proposal: "${pool}"
-#### Budget Item: "${budgetB}"
-#### ADA: "${ada}"
-#### Transaction: [link](https://cardanoscan.io/transaction/${txid})
-#### Description: ${description}`
+
+##### ${name} ${ada} ADA
+
+| Date      | Name | Funded Proposal | Budget Item | ADA | Transaction|
+| :---        | :---  | :--- | :--- | :--- | :--- |
+| ${new Date().toUTCString()} | ${name} | ${pool} | ${budgetB} | ${ada} | [link](https://cardanoscan.io/transaction/${txid})|
+
+Description: ${description}`
     
     //Encode string to URI format
     const encodedFileText = encodeURIComponent(fileText)
