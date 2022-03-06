@@ -53,6 +53,9 @@ Description: ${description}`
         case 'CC Treasury Management':
           answer = "Fund7/CC-Treasury-Management/";
           break;
+        case 'CC Mentorship':
+          answer = "Fund7/CC-Mentorship/";
+          break;              
         default:
           answer = "";
           break;
@@ -84,6 +87,9 @@ Description: ${description}`
         case 'CC Treasury system documentation':
           answer = "CC-Treasury-system-documentation/";
           break;
+        case 'CC Mentorship':
+          answer = "CC-Mentorship/";
+          break;     
         case 'Project funding - Community Advisors':
           answer = "Project-funding-Community-Advisors/";
           break;
