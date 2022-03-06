@@ -87,9 +87,12 @@ Description: ${description}`
         case 'CC Treasury system documentation':
           answer = "CC-Treasury-system-documentation/";
           break;
-        case 'CC Mentorship':
-          answer = "CC-Mentorship/";
-          break;     
+        case 'CCv1 Mentorship':
+          answer = "CCv1-Mentorship/";
+          break;    
+        case 'CCv2 Mentorship':
+          answer = "CCv2-Mentorship/";
+          break;          
         case 'Project funding - Community Advisors':
           answer = "Project-funding-Community-Advisors/";
           break;
