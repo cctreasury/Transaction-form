@@ -93,20 +93,20 @@ Description: ${description}`
         case 'CCv2 Mentorship':
           answer = "CCv2-Mentorship/";
           break;          
-        case 'Project funding - Community Advisors':
-          answer = "Project-funding-Community-Advisors/";
+        case 'Funding Mechanism - Community Advisors':
+          answer = "Funding-Mechanism-Community-Advisors/";
           break;
-        case 'Project funding - Funded Proposers':
-          answer = "Project-funding-Funded-Proposers/";
+        case 'Funding Mechanism - Funded Proposers':
+          answer = "Funding-Mechanism-Funded-Proposers/";
           break;
-        case 'Project funding - General ADA Holder':
-          answer = "Project-funding-General-ADA-Holder/";
+        case 'Funding Mechanism - General ADA Holder':
+          answer = "Funding-Mechanism-General-ADA-Holder/";
           break;
-        case 'Project funding - Stake Pool Operators':
-          answer = "Project-funding-Stake-Pool-Operators/";
+        case 'Funding Mechanism - Stake Pool Operators':
+          answer = "Funding-Mechanism-Stake-Pool-Operators/";
           break;
-        case 'Project funding - Toolmakers & Maintainers':
-          answer = "Project-funding-Toolmakers-&-Maintainers/";
+        case 'Funding Mechanism - Toolmakers & Maintainers':
+          answer = "Funding-Mechanism-Toolmakers-&-Maintainers/";
           break;
         case 'Other':
           answer = "Other/";
