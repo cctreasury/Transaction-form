@@ -66,6 +66,9 @@ Description: ${description}`
     function githubQueryLink2(budgetB) {
       var answer = "";
       switch(budgetB) {
+        case 'Incoming IOG':
+          answer = "Incoming-IOG/";
+          break;
         case 'CC member remuneration':
           answer = "CC-member-remuneration/";
           break;
@@ -118,6 +121,6 @@ Description: ${description}`
       return answer;
     }
     //Open in a new tab
-  window.open("https://github.com/cctreasury/Treasury-system/new/main/content/en/blog/" + githubQueryLink(pool) + githubQueryLink2(budgetB) + "new?value=" + encodedFileText +"&filename=" + filename);
+  window.open("https://github.com/cctreasury/Treasury-system/new/main/Transactions/" + githubQueryLink(pool) + githubQueryLink2(budgetB) + "new?value=" + encodedFileText +"&filename=" + filename);
     
   }
