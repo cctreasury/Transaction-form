@@ -55,6 +55,7 @@ function validateSubmission(){
   "ada": ${ada},
   "name": "${name}",
   "wallet": "${txid}",
+  "Transaction ID": "",
   "description": "${description}"
 }
 `
