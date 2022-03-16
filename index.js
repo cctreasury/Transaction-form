@@ -50,7 +50,7 @@ function validateSubmission(){
   "date": "${new Date().toUTCString()}",
   "project": "Catalyst Circle",
   "pool": "${pool}",
-  "Ideascale": "${ideascaleLink(pool)}"
+  "Ideascale": "${ideascaleLink(pool)}",
   "budget": "${budgetB}",
   "ada": ${ada},
   "name": "${name}",
