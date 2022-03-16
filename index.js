@@ -33,6 +33,9 @@ function validateSubmission(){
         case 'CC Treasury Management':
           iLink = "https://cardano.ideascale.com/c/idea/383284";
           break;
+        case 'CC Mentorship':
+          iLink = "https://cardano.ideascale.com/c/idea/385019";
+          break;              
         default:
           iLink = "";
           break;
