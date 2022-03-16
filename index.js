@@ -54,6 +54,7 @@ function validateSubmission(){
   "budget": "${budgetB}",
   "ada": ${ada},
   "name": "${name}",
+  "wallet": "${txid}",
   "description": "${description}"
 }
 `
